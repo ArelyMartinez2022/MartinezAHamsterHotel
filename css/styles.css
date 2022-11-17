@@ -306,3 +306,50 @@ height: 110px;
     padding-left: 11rem;
     padding-right: 11rem;
 }
+
+/* RESERCE  RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE*/
+
+.conpad{
+    padding-left: 15rem;
+    padding-right: 14rem;
+    background-image: ;
+}
+
+.rowPPad{
+    background-color: #000324;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.reservee{
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    color: #E5FEFF;
+}
+
+.label{
+    border-radius: 0%;
+}
+
+.labelFontt{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #E5FEFF
+}
+
+.toppadd{
+    background-color: #000324;
+}
+
+.labelFontt1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #E5FEFF
+}
+
+.hamheight{
+    width: 1400px;
+height: 414px;
+}
+
+
