@@ -4,6 +4,10 @@ font-family: 'Source Sans Pro', sans-serif;
 color: #e5FEFF;
 background-color: #000324;
 
+d-sm-none        smllater than md  >768px 
+
+
+
 #1F51A8
 */
 
@@ -282,11 +286,11 @@ height: 110px;
 
 .amenBack{
     background-image: url(../Images/bg.jpg);
-    padding: 3rem;
-    padding-bottom: 7rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 .title{
@@ -303,8 +307,8 @@ height: 110px;
 }
 
 .rowPad{
-    padding-left: 11rem;
-    padding-right: 11rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* RESERCE  RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE*/
@@ -312,7 +316,6 @@ height: 110px;
 .conpad{
     padding-left: 15rem;
     padding-right: 14rem;
-    background-image: ;
 }
 
 .rowPPad{
@@ -339,6 +342,7 @@ height: 110px;
 
 .toppadd{
     background-color: #000324;
+    color:  #000324;;
 }
 
 .labelFontt1{
@@ -348,8 +352,35 @@ height: 110px;
 }
 
 .hamheight{
-    width: 1400px;
+    width: 1900px;
 height: 414px;
 }
+
+.conpad1{
+    padding-left: 10.5rem;
+    padding-right: 9.5rem;
+}
+
+/* RESERCE  RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE RESERCE*/
+/* RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE */
+/* respondove for small */
+
+.conpadRe{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.rowPPad1{
+    background-color: #000324;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.reserveeepad{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 
 
