@@ -2,7 +2,7 @@
 <!-- NOV 14 2022 -->
 <!-- HAMSTER HOTEL -->
 <!--  MAKE OUR WEBSITE LOOK AS CLOSE TO THE HAMSTER HOTEL PROTOTYPE -->
-<!-- PEER REVIEW:  -->
+<!-- PEER REVIEW: MANUEL LEYVA: -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -58,12 +58,12 @@
 
           <center>
           <li class="nav-item">
-            <a class="nav-link  navFive" href="#Contact">Contact</a>
+            <a class="nav-link  navFive" href="#Contacttt">Contact</a>
           </li></center>
 
           <center>
           <li class="nav-item2">
-            <a class="nav-link  navSix" href="#reserve"> <p class="navOut">  Reserve</p> </a>
+            <a class="nav-link  navSix" href="#Reserve"> <p class="navOut">  Reserve</p> </a>
           </li></center>
       </ul>
       </nav>
@@ -73,9 +73,17 @@
 
    <!-- Inside  -->
 
-   <div id="Over" class="HeroImg">
-    <div class="HeroTxt">
+   <div class="HeroImg">
+    <!-- for medium screems and larger -->
+    <div class="HeroTxt d-none d-md-block">
       <h1 class="m-4 firstText">
+        Run on the wheel luxury
+      </h1>
+      <p class="secText">Explore everything the beach has to offer in our rlaxing resort </p>
+    </div>
+    <!-- for phone screens  -->
+    <div class="HeroTxt1 d-sm-none ">
+      <h1 class="firstText">
         Run on the wheel luxury
       </h1>
       <p class="secText">Explore everything the beach has to offer in our rlaxing resort </p>
@@ -147,7 +155,7 @@
     <div class="row justify-content-center ">
 
       <div class="card cardMarg " style="width: 369px;">
-        <img class="cardImgHeight justify-content-start fitCover" src="./Images/room1.jpg" alt=" Queen Room">
+        <img class="cardImgHeight justify-content-center fitCover" src="./Images/room1.jpg" alt=" Queen Room">
         <div class="card-body">
           <h3 class="card-title">Queen Room</h3>
           <p class="roomInfo">850 SQ FT room with city view</p>
@@ -202,6 +210,63 @@
   <br>
   <br>
 
+    <!-- PACKKAGESSSSS -->
+    <div id="pack" class="container-fluid d-sm-none ">
+      <div class="container">
+        <!-- row for title -->
+        <div class="row">
+          <center>
+          <div class="col">
+            <p class="pack">Packages</p>
+          </div>
+        </center>
+        </div>
+  
+        <!-- first row of hamster and text  -->
+        <div class="row justify-content-center hamPadding1">
+          <div class="col-12">
+            <img src="./Images/hamsterwedding.jpg" alt="..." class="heartHam1 img-fluid">
+          </div>
+          <div class="col-12">
+            <br>
+            <p class="beach">Beach Wedding package</p>
+            <p class="money">Starting Us $1,500.00</p>
+            <p class="dis">Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.</p>
+          </div>
+          <br>
+          <br>
+        </div>
+  
+        <!-- Sec row of hamster and text  -->
+        <div class="row justify-content-center hamPadding1">
+          <div class="col-12">
+            <img src="./Images/hamsterspring.jpg" alt="..." class="heartHam img-fluid">
+          </div>
+          <!-- IMAGE END -->
+          <div class="col-12">
+            <br>
+            <p class="beach">Full Bloom Package</p>
+            <p class="money">Starting Us $1,000.00</p>
+            <p class="dis">Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.</p>
+          </div>
+        </div>
+  
+        <!-- Third row of hamster and text  -->
+        <div class="row justify-content-center hamPadding1">
+          <div class="col-12">
+            <img src="./Images/hamstercheese.jpg" alt="..." class="heartHam1 img-fluid">
+          </div>
+          <div class="col-12">
+            <br>
+            <p class="beach">Cheese and Seed Tour Package</p>
+            <p class="money">Starting Us $1,200.00</p>
+            <p class="dis">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
 
   <!-- PACKKAGESSSSS -->
   <div id="pack" class="container-fluid d-none d-lg-block d-xl-block d-md-block d-sm-block">
@@ -230,7 +295,6 @@
         <br>
       </div>
 
-  
       <!-- Sec row of hamster and text  -->
       <div class="row justify-content-center hamPadding">
         <div class="col">
@@ -256,8 +320,6 @@
           <p class="dis">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
         </div>
       </div>
-
-
       
     </div>
   </div>
@@ -269,7 +331,7 @@
   <!-- AMMMMMMENNNNNITTTIESSSSssss  AMMMMMMENNNNNITTTIESSSSssss -->
 
 
-  <div class="container-fluid amenBack">
+  <div id="Amenities" class="container-fluid amenBack ">
     <!-- for the title -->
     <div class="row"> 
       <center>
@@ -282,26 +344,36 @@
       <P class="amenDis">Here at La Petite Mansion, we invite to enjoy our services in hopes that the most relaxing stay we can provide.</P></center>
     </div>
   <!-- for the icons -->
-    <div class="row d-flex justify-content-between">
-      <div class="col">
+    <div class="row d-flex justify-content-center">
+      <div class="col ">
         <center>
         <img src="./Images/24hour.png" class="amenImage" alt="...">
-        <P>24 Hour Room Service</P></center>
+        <br>
+        <br>
+        <P class="under">24 Hour Room Service</P></center>
       </div>
       <!-- image -->
       <div class="col">
         <center><img src="./Images/breakfast.png" class="amenImage2" alt="...">
-        <p>Complimentary Breakfast</p>
+          <br>
+          <br>
+        <p class="under" >Complimentary Breakfast</p>
         </center>
       </div>
       <!-- image -->
       <div class="col">
-        <center><img src="./Images/valet.png" class="amenImage3" alt="..."></center>
+        <center><img src="./Images/valet.png" class="amenImage3" alt="velet">
+          <br>
+          <br>
+          <p class="under" >Valet Parking</p> </center>
       </div>
       <!-- last image -->
       <div class="col">
         <center>
-        <img src="./Images/pool.png" class="amenImage4" alt="..."></center>
+        <img src="./Images/pool.png" class="amenImage4" alt="pool">
+        <br>
+        <br>
+        <p class="under">Beachside Pool</p></center>
       </div>
     </div>
   </div>
@@ -310,10 +382,10 @@
   <br>
   <br>
 
-  <!-- RESPONSIVE FOR  -->
+  <!-- RESPONSIVE FOR phomes -->
 
   <!-- Reserve  Reserve Reserve Reserve Reserve Reserve Reserve Reserve-->
-  <div class="container d-sm-none justify-content-center conpadRe d-xl-none">
+  <div id="Reserve" class="container d-sm-none justify-content-center conpadRe d-xl-none">
     <!-- first row for title -->
     <!-- sec row for options -->
     <div class="container ">
@@ -331,26 +403,26 @@
         <div class="row justify-content-center reserveeepad">
           <center>
             <label for="username labelFontt"> <p class="labelFontt">Check-in</p></label>
-          <input type="text" name="username" id="username"></center>
+          <input type="text" ></center>
 
         </div>
         <!-- next -->
         <div class="row justify-content-center ">
           <center>
             <label for="username labelFontt"> <p class="labelFontt">Check-out</p></label>
-          <input type="text" name="username" id="username"></center>
+          <input type="text""></center>
         </div>
         <!-- third -->
         <div class="row justify-content-center reserveeepad">
           <center>
             <label for="username"> <p class="labelFontt">Number of Guests</p></label>
-          <input type="text" name="username" id="username"></center>
+          <input type="text"></center>
         </div>
         <!-- fourth -->
         <div class="row justify-content-center" >
           <center>
             <label for="username labelFontt">  <p class="labelFontt">Room Type</p></label>
-          <input type="text" name="username" id="username"></center>
+          <input type="text"></center>
         </div>
         <!-- firth -->
         <div class="row justify-content-center ">
@@ -368,10 +440,19 @@
     <!-- third row for image -->
   </div>
 
+  <div class="container-fluid d-sm-none">
+    <div class="row">
+      <div class="col-12">
+        <br>
+        <img src="./Images/hamsterreserve.jpg" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+
   <!-- THIS MAKES IT RESPONSIVE FOR TABLET -->
 
      <!-- Reserve  Reserve Reserve Reserve Reserve Reserve Reserve Reserve-->
-     <div class="container d-none d-md-block justify-content-center  d-xl-none conpadRe d-xl-none">
+     <div id="Reserve" class="container d-none d-md-block justify-content-center  d-xl-none conpadRe d-xl-none">
       <!-- first row for title -->
       <!-- sec row for options -->
       <div class="container ">
@@ -388,26 +469,26 @@
           <div class="row">
             <center>
               <label for="username labelFontt"> <p class="labelFontt">Check-in</p></label>
-            <input type="text" name="username" id="username"></center>
+            <input type="text" ></center>
 
           </div>
           <!-- next -->
           <div class="row">
             <center>
               <label for="username labelFontt"> <p class="labelFontt">Check-out</p></label>
-            <input type="text" name="username" id="username"></center>
+            <input type="text" ></center>
           </div>
           <!-- third -->
           <div class="row">
             <center>
               <label for="username"> <p class="labelFontt">Number of Guests</p></label>
-            <input type="text" name="username" id="username"></center>
+            <input type="text"></center>
           </div>
           <!-- fourth -->
           <div class="row">
             <center>
               <label for="username labelFontt">  <p class="labelFontt">Room Type</p></label>
-            <input type="text" name="username" id="username"></center>
+            <input type="text"></center>
           </div>
           <!-- firth -->
           <div class="row">
@@ -433,10 +514,10 @@
 
 
    <!-- Reserve  Reserve Reserve Reserve Reserve Reserve Reserve Reserve-->
-    <div class="container-fluid d-none d-xl-block justify-content-center conpad">
+    <div id="Reserve" class="container-fluid d-none d-xl-block justify-content-center conpad">
       <!-- first row for title -->
       <!-- sec row for options -->
-      <div class="container-fluid ">
+      <div id="Reserve" class="container-fluid ">
         
       </div>
       <div class="row rowPPad">
@@ -448,27 +529,35 @@
         <!-- INPUTS -->
         <div class="col">
           <label for="username labelFontt"> <p class="labelFontt">Check-in</p></label>
-        <input type="text" name="username" id="username">
+        <input type="text">
         </div>
         <!-- sec INPUt -->
         <div class="col">
           <div class="col">
             <label for="username labelFontt"> <p class="labelFontt">Check-out</p></label>
-          <input type="text" name="username" id="username">
+          <input type="text" >
           </div>
         </div>
         <!-- third INPut -->
         <div class="col">
           <div class="col">
             <label for="username"> <p class="labelFontt">Number of Guests</p></label>
-          <input type="text" name="username" id="username">
+          <input type="text" >
+          <!-- <label for="numberGuests">Number of Guests</label>
+              <select class="form-control" id="numberGuests">
+                <option>Select No. of Guests</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4 or more</option>
+              </select> -->
           </div>
         </div>
         <!-- FOurth input -->
         <div class="col">
           <div class="col">
             <label for="username labelFontt">  <p class="labelFontt">Room Type</p></label>
-          <input type="text" name="username" id="username">
+          <input type="text">
           </div>
         </div>
         <!-- button -->
@@ -492,7 +581,7 @@
    <br>
   
   <!-- FOOTER -->
-  <div class="container-fluid">
+  <div id="#Contacttt" class="container-fluid">
     
       <div class="row align-items-center justify-content-center">
         <div class="footer nav justify-content-center align-items-start pl-3 pr-3">
